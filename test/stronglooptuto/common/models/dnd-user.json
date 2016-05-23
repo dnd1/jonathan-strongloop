@@ -1,0 +1,21 @@
+{
+  "name": "DndUser",
+  "plural": "dndusers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "createdAt": {
+      "type": "date"
+    },
+    "fullName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
